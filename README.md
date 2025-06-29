@@ -9,6 +9,17 @@ Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 
 Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
 
+## Commands
+
+  * `docker-compose up -d`: Start Docker container
+  * `mix setup`: Install and setup dependencies
+  * `mix phx.server`: Start Phoenix endpoint
+  * `iex -S mix phx.server`: Start Phoenix endpoint inside IEx
+  * `mix phx.gen.schema {schema name} {database name} [columns {name:type}]`: Generate a schema
+  * `mix ecto.migrate`: Run database migrations
+  * `mix ecto.rollback`: Rollback database migrations
+  * `mix ecto.dump`: Dump database schema
+
 ## Learn more
 
   * Official website: https://www.phoenixframework.org/
