@@ -16,6 +16,7 @@ Ready to run in production? Please [check our deployment guides](https://hexdocs
   * `mix phx.server`: Start Phoenix endpoint
   * `iex -S mix phx.server`: Start Phoenix endpoint inside IEx
   * `mix phx.gen.schema {schema name} {database name} [columns {name:type}]`: Generate a schema
+    * Eg: `mix phx.gen.schema Chat.Room rooms name:text topic:text`
   * `mix ecto.migrate`: Run database migrations
   * `mix ecto.rollback`: Rollback database migrations
   * `mix ecto.dump`: Dump database schema
